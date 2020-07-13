@@ -72,5 +72,3 @@ for i=1:ns
     pause(.01);
 end
 end
-
-
