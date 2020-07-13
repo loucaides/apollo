@@ -54,7 +54,7 @@ for i=1:ns
     %%
     % plot
     image(trail.*50.);
-    axis tight manual equal off% this ensures that getframe() returns a consistent size
+    axis tight manual equal off% 
     colormap(colr);
     % Capture the plot as an image 
     ax = gca;
